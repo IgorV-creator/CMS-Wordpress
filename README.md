@@ -10,6 +10,6 @@
 5. Пользовательский тип записей и таксономий.
 6. Галерею
 
-![Шаблон CMS Wordpress](https://github.com/IgorV-creator/CMS-Wordpress/blob/master/%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20%D0%AF%D0%95%D0%B4%D1%83.png)
+![Шаблон CMS Wordpress](https://github.com/IgorV-creator/CMS-Wordpress/blob/master/%D0%AF%D0%95%D0%B4%D1%83.png)
 
 ### [перейти на сайт](https://ya-edu.site/)
