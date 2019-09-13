@@ -1,0 +1,691 @@
+@charset "UTF-8";
+/**
+Theme Name: Rest Child
+Description: Under Theme Child
+Theme URI: https://ya-edu.site
+Author: Igor Voin
+Template: restau-lite
+Version:  1.0
+*/
+
+#wpadminbar {
+    display: none;
+}
+
+html {
+    margin-top: 0 !important;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    line-height: 1.1;
+    color: #000;
+}
+
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 5px 0;
+}
+#header {
+    position: relative;
+    z-index: 2;
+    -webkit-transition: padding 200ms;
+    -o-transition: padding 200ms;
+    transition: padding 200ms;
+    padding: 0.9375rem 0;
+    margin-bottom: 0;
+}
+.top-page-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 1.25em;
+}
+.sub-footer p {
+    margin-bottom: 0;
+    float: left;
+    line-height: 35px;
+    margin-top: -10px;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    text-align: center
+}
+
+.gallery-content iframe {
+    width: 70%;
+}
+
+.primary-menu {
+    margin-top: 10px;
+}
+
+#jqueryslidemenu ul.nav>li>a {
+    font-size: 1.5rem;
+}
+
+.menu-item-2175 {
+    padding-top: 12px;
+}
+
+.menu-item-price {
+    color: #e8b932;
+    display: none;
+}
+
+.menu-section .menu-slider .menu-slide ul li {
+    display: inline-block;
+    width: auto;
+    margin: 1.5% 2% 1.5%;
+    border-bottom: 2px dotted rgba(0, 0, 0, 0.15);
+    position: relative;
+    min-height: 86px;
+    vertical-align: top;
+}
+
+.menu-section .menu-slider .menu-slide ul li .menu-item-title {
+    color: #616161;
+    font-weight: bold;
+    font-family: Tangerine, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+    font-size: 180%;
+    margin-bottom: 0;
+}
+
+.flickity-viewport {
+    height: 1950px;
+}
+
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    overflow-y: auto;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-section .menu-slider {
+    padding: 3.75rem;
+    margin-bottom: 3.125rem;
+    position: relative;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.attachment-full {
+    vertical-align: middle;
+    width: 500px;
+}
+
+.testimonials-section {
+    padding: 0 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.testimonial {
+    width: 94%;
+    margin: 3% 0 0;
+    padding: 0 15%;
+}
+
+.banner_img {
+    position: absolute;
+    top: 60px;
+    z-index: 100;
+}
+
+.faq_list {
+    position: relative;
+    color: #192430;
+}
+
+.faq_item {
+    box-sizing: border-box;
+}
+
+.faq_item_title {
+    box-sizing: border-box;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.faq_show_all .faq_item_title {
+    font-weight: 900;
+    padding-left: 23px;
+    margin-top: 20px;
+}
+
+.faq_item_title_inner {
+    display: inline-block;
+    position: relative;
+    padding: 0 60px 0 0;
+    cursor: pointer;
+}
+
+#list {
+    text-align: center;
+}
+
+.forme_inner {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+.faq_item_title_inner:hover:before {
+    transform: translateY(1px);
+}
+
+.faq_item_title_inner:before {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    background: url(../images/faq_arrow_down.png) no-repeat center center;
+    cursor: pointer;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.faq_item_title_inner.open:before {
+    transform: rotate(180deg);
+}
+
+.faq_item_body {
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.title_inner {
+    color: orange;
+    width: auto;
+}
+
+.logo-big {
+    width: 100%;
+    height: 100%;
+}
+
+.text_menu-map,
+.text_menu-map_foot_1,
+.text_menu-map_foot_2 {
+    font-family: "Dancing Script";
+    text-transform: capitalize;
+    color: #d3d64d;
+    display: block;
+    font-size: 3.125rem;
+    font-weight: 550;
+}
+
+.text_menu-map_foot_1 {
+    color: green;
+}
+
+.text_menu-map_foot_2 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    color: green;
+}
+
+.logo_container .ql_logo {
+    transition: all 400ms ease-in-out;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 11px 0;
+    color: #f5e513;
+    font-size: 36px;
+    text-shadow: 5px 3px black;
+}
+
+.site-title {
+    color: #f5e513;
+    font-size: 36px;
+    text-shadow: 5px 3px black;
+}
+
+.menu-slider {
+    visibility: visible;
+    animation-name: fadeInUp;
+    width: 875px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote {
+    background: rgba(255, 255, 255, 0.95);
+    overflow: hidden;
+}
+
+.testimonial blockquote {
+    z-index: 1;
+    border: none;
+    text-align: left;
+    font-size: 1.8rem;
+    color: #222;
+    position: relative;
+    font-weight: normal;
+}
+
+.rcl-public-box .rcl-form-field>label {
+    display: block;
+    font-size: 18px;
+    line-height: normal;
+    margin: 0 0 3px;
+    color: black;
+}
+
+.rcl-field-input select {
+    color: black;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    box-sizing: border-box;
+    float: none;
+    height: auto;
+    line-height: normal;
+    outline: 0;
+    padding: 5px 3px;
+    width: 100%;
+}
+
+.rcl-field-input.type-text-input .maxlength {
+    height: 100%;
+    color: black;
+}
+
+#form-field-post_content textarea.wp-editor-area {
+    background-color: #fff;
+    min-height: 50px;
+}
+
+.site-title {
+    color: #f5f5f5;
+    font-size: 36px;
+    text-shadow: 5px 3px black;
+}
+
+.style-title a span {
+    color: #d3d64d;
+    text-decoration: none;
+}
+
+.ya:first-letter{
+    color: red;
+}
+
+.style-title-ya:first-letter{
+    font-size: 150%;
+    color: red;
+}
+
+.style-title-ya{
+    color: #616161;
+    display: inline-block;
+	margin-top: 0px;
+}
+
+.title i {
+    display: none;
+}
+
+.light-btn {
+    background-color: gold;
+}
+
+#sidebar .widget {
+    margin-bottom: 3.125em;
+    position: relative;
+    padding: 0;
+    font-size: 14px;
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: initial;
+    min-height: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a#button-action {
+    border: 1px solid;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.sub-footer {
+    font-size: 1.125rem;
+}
+
+.output-user-count select,
+.wprecallblock .output-user-count input[type="text"] {
+    width: 250px;
+    margin: 0;
+}
+
+.wpcom-mobile-app-promo {
+    display: none;
+}
+
+#modal-order {
+    width: auto;
+}
+
+#site-generator {
+    display: none;
+}
+
+a.recall-button,
+a.recall-button,
+.recall-button.rcl-upload-button {
+    background: #3bc73b;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #E5FFFF;
+    background: rgb(206, 214, 94);
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -webkit-transition: outline 0.02s linear;
+    -moz-transition: outline 0.02s linear;
+    -o-transition: outline 0.02s linear;
+    transition: outline 0.02s linear;
+}
+
+.button:hover {
+    padding: 11px 32px;
+    text-decoration: none;
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #E5FFFF;
+    background: #3bc79f;
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.type-multiselect-input .fs-wrap,
+.type-multiselect-input .fs-dropdown {
+    max-width: inherit;
+    width: 100%;
+}
+
+.telephone {
+    width: 300px;
+    max-width: 98%;
+}
+
+.rc-anchor-light.rc-anchor-normal {
+    border: 1px solid #d3d3d3;
+    width: fit-content;
+}
+.rc-anchor-logo-portrait {
+    margin: 10px 0 0 6px;
+    width: 58px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.rc-anchor-normal .rc-anchor-pt {
+    margin: 2px 13px 0 0;
+    padding-right: 2px;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    width: 276px;
+}
+.ya-re-peg {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+@media (max-width: 767px) {
+    .entry-content h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 767px) {
+    .post-title {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-1,
+    .col-sm-1,
+    .col-md-1,
+    .col-lg-1,
+    .col-xs-2,
+    .col-sm-2,
+    .col-md-2,
+    .col-lg-2,
+    .col-xs-3,
+    .col-sm-3,
+    .col-md-3,
+    .col-lg-3,
+    .col-xs-4,
+    .col-sm-4,
+    .col-md-4,
+    .col-lg-4,
+    .col-xs-5,
+    .col-sm-5,
+    .col-md-5,
+    .col-lg-5,
+    .col-xs-6,
+    .col-sm-6,
+    .col-md-6,
+    .col-lg-6,
+    .col-xs-7,
+    .col-sm-7,
+    .col-md-7,
+    .col-lg-7,
+    .col-xs-8,
+    .col-sm-8,
+    .col-md-8,
+    .col-lg-8,
+    .col-xs-9,
+    .col-sm-9,
+    .col-md-9,
+    .col-lg-9,
+    .col-xs-10,
+    .col-sm-10,
+    .col-md-10,
+    .col-lg-10,
+    .col-xs-11,
+    .col-sm-11,
+    .col-md-11,
+    .col-lg-11,
+    .col-xs-12,
+    .col-sm-12,
+    .col-md-12,
+    .col-lg-12 {
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery-content iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .testimonial {
+        width: 100%;
+        margin: 3% 0 0;
+        padding: 0 1%;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome-image {
+        height: 450px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-slider {
+        visibility: visible;
+        animation-name: fadeInUp;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-item-97 {
+        left: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    p .alignright {
+        margin: 5px 0 20px;
+        width: 180px;
+        float: unset;
+    }
+}
+
+@media (max-width: 767px) {
+    .testimonial {
+        position: absolute;
+        left: 0%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .wp-block-image img {
+        max-width: 100%;
+        width: 300px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .zvonok {
+        margin: 0 0 10px 60%;
+        margin-top: -60px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+    .button {
+        padding: 11px 2px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+    .post-title {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+    h4,
+    .h5 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+    .menu-section .menu-slider .menu-slide ul li .menu-item-title {
+        font-size: 150%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+    .faq_item_title_inner,
+    .text_menu-map_foot_1 {
+        font-size: 14px;
+    }
+}
